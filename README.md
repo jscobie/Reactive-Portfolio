@@ -1,23 +1,17 @@
 # Reactive-Portfolio
 
-# Challenge 19 PWA: J.A.T.E
+# Challenge 20 React: React Portfolio
 
 ## Badges
 [![License: CC0-1.0](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This project is J.A.T.E. Just A Test Editor Progressive Web Application. We were given completed code that needed troubleshooting to make this work as a Progressive Web App and use IndexedDB along with all the Webpack tools and configurations.
+This project is a Portfolio project built using the newly learned React framework. Since all devlopers need a great portfolio to showcase their skills and for career opportunities this is an excellant project that not only is being built for the Bootcamp grading but will be continuously updated for me to use.
 
 ### Required links for review and grading submission
-[Github Repository Link](https://github.com/jscobie/TextEditor)<br>
-[Heroku Deployed Site](https://stark-depths-09292.herokuapp.com/)
-
-Demo of web application running in Chrome - Shows manifest, IndexedDb, and Service Workers registered:<br>
-![Demo of Web Application in Chrome](./assets/00-page-indexdb-manifest-serviceworker.gif)
-
-Demo of PWA Install of JATE application and Open:<br>
-![Demo of PWA install and Open](./assets/01-app-running.gif)
+[Github Repository Link](https://github.com/jscobie/Reactive-Portfolio)<br>
+[Git Pages Deployed Site]()
 
 ## Table of Contents
 
@@ -33,17 +27,16 @@ Demo of PWA Install of JATE application and Open:<br>
 
 **1. Clone to ***your computer*** using SSH from GitHub:**
 ```
-git clone git@github.com:jscobie/TextEditor.git
+git clone git@github.com:jscobie/Reactive-Portfolio.git
 ```
 **2. You'll need to run to install the node required dependencies after you clone the install by running:**
 ```
 npm i
 ```
-**3. You will need to build the dist folder:**
+**3. Then you need to build and run the server (this auto-opens your default browser to see the page at Localhost:3000):**
 ```
-npm run start
+npm start
 ```
-**4. Open Chrome Browser: localhost:3000**
 
 ## Usage
 
