@@ -1,24 +1,63 @@
 import React from 'react';
+import Project from '../Project';
+
+import profile1 from '../../assets/Project1-OutImagery-800x550.png';
+import profile2 from '../../assets/Project2-RescuePets-800x550.png';
+import profile3 from '../../assets/PWA-JustATextEditor-800x550.png';
+import profile4 from '../../assets/TechBlog-HandleBarsSQL-800x550.png';
 
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div>
+        <h1>Portfolio</h1>
+        <div className="container" style={{paddingTop: '10px'}}>
+          <div className="row">
+            <Project
+              key = "1"
+              img = {profile1}  
+              imgAlt = "Out of this world Imagery and Quote"
+              project = "hhttps://github.com/QuatroGroup/quattro-project"
+              projectAlt = "CSS Front End Styling project using APIs"
+              projectTitle = "CSS and API"
+              gitHubRepo = "https://quatrogroup.github.io/quattro-project/"
+              gitHubAlt = "See game repository on GitHub"
+              description = "Space themed website that accesses 2 API's and provides the use imagery from NASA and an inspirational quote." />
+            <Project
+              key = "2"
+              img = {profile2}  
+              imgAlt = "Rescue Pets - Animal Adoption"
+              project = "https://powerful-ravine-90978.herokuapp.com/"
+              projectAlt = "RescuePets"
+              projectTitle = "Rescue Pets"
+              gitHubRepo = "https://github.com/Bootcamp-Buddies/Rescue-Pets"
+              gitHubAlt = "See app repository on GitHub"
+              description = "Full stack site where Pet Adoption is the goal, Rescue Pets." />
+          </div> 
+          <div className="row">
+            <Project
+              key = "3"
+              img = {profile3}  
+              imgAlt = "Progressive Web Application - Simple Text Editing App"
+              project = "https://stark-depths-09292.herokuapp.com/"
+              projectAlt = "PWA Example of a simple text editor application"
+              projectTitle = "PWA - J.A.T.E."
+              gitHubRepo = "https://github.com/jscobie/TextEditor"
+              gitHubAlt = "See app repository on Github"
+              description = "Build of a simple Text Editor using Progressive Web Application classwork and topics." />
+            <Project
+              key = "4"
+              img = {profile4}  
+              imgAlt = "TechBlog - Twitter's Replacement"
+              project = "https://warm-shore-33539.herokuapp.com/"
+              projectAlt = "Handlebars and SQL combine"
+              projectTitle = "TechBlog - Twitter's Replacement"
+              gitHubRepo = "https://github.com/jscobie/TechBlogMVC"
+              gitHubAlt = "See app repository on GitHub"
+              description = "Using Handlebars, SQL, Javascript to build a simple Blog site, jokingly aimed at replacing Twitter, brought to you by Pied Piper!" />
+          </div> 
+        </div>
+      </div>
     </div>
   );
 }
