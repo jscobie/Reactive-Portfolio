@@ -2,21 +2,28 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+<div>
+      <div>
+        <h1 >Contact</h1>
+        <p> This contact form is under construction. Check back for functionality soon.
+        <a href="mailto:jacob.scobie@gmail.com"> Email Me!</a></p>
+        <p><form>
+        <label>
+        Name:
+        <input type="text" name="name" disabled />
+        </label>
+        <label>
+        Email:
+        <input type="email" name="email" disabled />
+        </label>
+        <label>
+        Message:
+        <input type="text" name="message" disabled />
+        </label>
+        <input style={{ marginTop: '20px' }} type="submit" value="Submit" disabled />
+        </form>
+        </p>
+      </div>
     </div>
   );
 }

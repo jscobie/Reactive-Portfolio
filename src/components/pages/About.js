@@ -3,14 +3,17 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Jacob</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        As a long-time member of the IT industry I have sought to learn more about web development to add to my
+        arsenal of tools that continue to propel me into further project and challenges. I am currently an IT Manager, 
+        heavy on the IT light on the manager; I push my team by being technically knowledgable. Managing people and 
+        technologies is only one facet of what a successful IT Manager does in my opinion.
+      </p>
+      <p>
+        I am about to graduate from a Web Development (Full Stack) Bootcamp through Michigan State University. I am planning
+        to utilize my new coding skills to improve my employers online presence through a normal website and we have working
+        plans on multiple portal projects which require stron front/back end skills for the entire Full Stack programming scheme.
       </p>
     </div>
   );
