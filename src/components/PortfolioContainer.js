@@ -31,8 +31,10 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header />
+      <div style={{ "backgroundImage":"linear-gradient(to top, #13293d, #72afe7)" }}>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      </div>
       <Footer />
     </div>
   );

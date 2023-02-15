@@ -2,17 +2,17 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
-    <div>
+    <div style={{ "flexGrow":"1","minWidth":"300px","maxWidth":"800px","marginTop":"20px" }}>
+    <div style={{"padding":"0 20px 60px","fontFamily":"Helvetica"}}>
       <h1>Resume</h1>
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <p><a href="#" alt="Open PDF Resume" target="_blank" rel="noreferrer"><button className="button" type="submit" value="Submit">Open Jacob's Resume (PDF)</button></a></p>
+            <p><a href="#" alt="Open PDF Resume" target="_blank" rel="noreferrer"><button style={{ marginTop: '20px', "backgroundColor":"#42c5f5","color":"white","border":"none","borderRadius":"4px","padding":"2px 20px 2px","whiteSpace":"nowrap" }} type="submit" value="Submit">Open Jacob's Resume (PDF)</button></a></p>
           </div>
           <div className="col-md-6"><h3>Technical Skills</h3>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6" style={{"fontFamily":"Helvetica"}}>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -22,7 +22,7 @@ export default function Resume() {
               <li>React</li>
             </ul>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" style={{"fontFamily":"Helvetica"}}>
             <ul>
               <li>Node.js</li>
               <li>Express</li>

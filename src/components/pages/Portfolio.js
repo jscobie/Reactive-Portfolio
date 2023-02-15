@@ -8,8 +8,8 @@ import profile4 from '../../assets/TechBlog-HandleBarsSQL-800x550.png';
 
 export default function Portfolio() {
   return (
-    <div>
-      <div>
+    <div style={{"padding":"0 20px 60px","fontFamily":"Helvetica"}}>
+      <div style={{ "flexGrow":"1","minWidth":"300px","maxWidth":"800px","marginTop":"20px" }}>
         <h1>Portfolio</h1>
         <div className="container" style={{paddingTop: '10px'}}>
           <div className="row">
@@ -17,10 +17,10 @@ export default function Portfolio() {
               key = "1"
               img = {profile1}  
               imgAlt = "Out of this world Imagery and Quote"
-              project = "hhttps://github.com/QuatroGroup/quattro-project"
+              project = "https://quatrogroup.github.io/quattro-project/"
               projectAlt = "CSS Front End Styling project using APIs"
               projectTitle = "CSS and API"
-              gitHubRepo = "https://quatrogroup.github.io/quattro-project/"
+              gitHubRepo = "https://github.com/QuatroGroup/quattro-project"
               gitHubAlt = "See game repository on GitHub"
               description = "Space themed website that accesses 2 API's and provides the use imagery from NASA and an inspirational quote." />
             <Project
