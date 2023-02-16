@@ -3,7 +3,7 @@ import React from 'react';
 export default function Resume() {
   return (
     <div style={{ "flexGrow":"1","minWidth":"300px","maxWidth":"800px","marginTop":"20px" }}>
-    <div style={{"padding":"0 20px 60px","fontFamily":"Helvetica"}}>
+    <div style={{"padding":"0 20px 60px","fontFamily":"Helvetica", "color": "white" }}>
       <h1>Resume</h1>
       <div className="container">
         <div className="row">

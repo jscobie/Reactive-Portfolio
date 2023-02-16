@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
 <div style={{ "flexGrow":"1","minWidth":"300px","maxWidth":"800px","marginTop":"20px" }}>
-      <div style={{"padding":"0 20px 60px","fontFamily":"Helvetica"}}>
+      <div style={{" padding":"0 20px 60px","fontFamily":"Helvetica", "color": "white" }}>
         <h1 >Contact</h1>
         <p> This contact form is under construction. Check back for functionality soon.
         <a href="mailto:jacob.scobie@gmail.com"> Email Me!</a></p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div style={{"padding":"0 20px 60px","fontFamily":"Helvetica"}}>
+    <div style={{"padding":"0 20px 60px","color": "white", "fontFamily":"Helvetica"}}>
       <div style={{ "flexGrow":"1","minWidth":"300px","maxWidth":"800px","marginTop":"20px" }}>
       <h1>About Jacob</h1>
         <p>

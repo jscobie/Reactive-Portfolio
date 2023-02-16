@@ -9,7 +9,7 @@ import profile4 from '../../assets/TechBlog-HandleBarsSQL-800x550.png';
 export default function Portfolio() {
   return (
     <div style={{"padding":"0 20px 60px","fontFamily":"Helvetica"}}>
-      <div style={{ "flexGrow":"1","minWidth":"300px","maxWidth":"800px","marginTop":"20px" }}>
+      <div style={{ "flexGrow":"1","minWidth":"300px","maxWidth":"800px","marginTop":"20px", "color": "white" }}>
         <h1>Portfolio</h1>
         <div className="container" style={{paddingTop: '10px'}}>
           <div className="row">
@@ -22,7 +22,7 @@ export default function Portfolio() {
               projectTitle = "CSS and API"
               gitHubRepo = "https://github.com/QuatroGroup/quattro-project"
               gitHubAlt = "See game repository on GitHub"
-              description = "Space themed website that accesses 2 API's and provides the use imagery from NASA and an inspirational quote." />
+              description = "Technology used: HTML, CSS, API" />
             <Project
               key = "2"
               img = {profile2}  
@@ -32,7 +32,7 @@ export default function Portfolio() {
               projectTitle = "Rescue Pets"
               gitHubRepo = "https://github.com/Bootcamp-Buddies/Rescue-Pets"
               gitHubAlt = "See app repository on GitHub"
-              description = "Full stack site where Pet Adoption is the goal, Rescue Pets." />
+              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller, dotenv" />
           </div> 
           <div className="row">
             <Project
@@ -44,7 +44,7 @@ export default function Portfolio() {
               projectTitle = "PWA - J.A.T.E."
               gitHubRepo = "https://github.com/jscobie/TextEditor"
               gitHubAlt = "See app repository on Github"
-              description = "Build of a simple Text Editor using Progressive Web Application classwork and topics." />
+              description = "Technology used: Express, concurrently, nodemon, webpack, css loader, babel" />
             <Project
               key = "4"
               img = {profile4}  
@@ -54,7 +54,7 @@ export default function Portfolio() {
               projectTitle = "TechBlog - Twitter's Replacement"
               gitHubRepo = "https://github.com/jscobie/TechBlogMVC"
               gitHubAlt = "See app repository on GitHub"
-              description = "Using Handlebars, SQL, Javascript to build a simple Blog site, jokingly aimed at replacing Twitter, brought to you by Pied Piper!" />
+              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller, dotenv" />
           </div> 
         </div>
       </div>

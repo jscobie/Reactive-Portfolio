@@ -1,5 +1,3 @@
-# Reactive-Portfolio
-
 # Challenge 20 React: React Portfolio
 
 ## Badges
