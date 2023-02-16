@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav-tabs" style={{ "backgroundColor":"#13293d", "padding":"10px 10px 0px 10px","display":"flex" }}>
+    <ul className="nav nav-tabs" style={{ "backgroundColor":"#13293d", "padding":"10px 10px 0px 10px","display":"flex" }}>
       <li className="nav-item bg-light">
         <a
           href="#about"
