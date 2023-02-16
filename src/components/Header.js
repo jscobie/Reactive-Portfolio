@@ -7,10 +7,11 @@ export default function Header() {
             <h1 className='d-flex justify-content-center' style={{ fontSize: '60px', fontFamily: 'Helvetica'}}>
               Jacob Scobie
             </h1>
-            <img style={{ "padding": "0 0 0", "height":"80px","width":"100%","backgroundSize":"cover","backgroundPosition":"center" }} src={banner} alt="Link to GitHub" width="25"></img>
+            
             <p className='d-flex justify-content-center' style={{ fontSize: '20px', fontFamily: 'Lucida Console'}}>
               Coder. Troubleshooter. Leader.
             </p>
+            <img style={{ "padding": "0 0 0", "height":"80px","width":"100%","backgroundSize":"cover","backgroundPosition":"center" }} src={banner} alt="Link to GitHub" width="25"></img>
         </div>  
     );
 }
