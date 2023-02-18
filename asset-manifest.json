@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Reactive-Portfolio/static/css/main.0fd47dac.css",
+    "main.js": "/Reactive-Portfolio/static/js/main.d656521a.js",
+    "static/media/Project1-OutImagery-800x550.png": "/Reactive-Portfolio/static/media/Project1-OutImagery-800x550.00b7a938584120828df0.png",
+    "static/media/Project2-RescuePets-800x550.png": "/Reactive-Portfolio/static/media/Project2-RescuePets-800x550.097b3b6c8bf145735d9e.png",
+    "static/media/Resume.PNG": "/Reactive-Portfolio/static/media/Resume.277aeefdbdc979170723.PNG",
+    "static/media/R.jpg": "/Reactive-Portfolio/static/media/R.3ff1eaaed187ecdc7dec.jpg",
+    "static/media/TechBlog-HandleBarsSQL-800x550.png": "/Reactive-Portfolio/static/media/TechBlog-HandleBarsSQL-800x550.e531643ea7d25d8c6a4b.png",
+    "static/media/PWA-JustATextEditor-800x550.png": "/Reactive-Portfolio/static/media/PWA-JustATextEditor-800x550.df49e81d391a839c2b7d.png",
+    "index.html": "/Reactive-Portfolio/index.html",
+    "main.0fd47dac.css.map": "/Reactive-Portfolio/static/css/main.0fd47dac.css.map",
+    "main.d656521a.js.map": "/Reactive-Portfolio/static/js/main.d656521a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fd47dac.css",
+    "static/js/main.d656521a.js"
+  ]
+}
