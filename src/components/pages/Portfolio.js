@@ -4,7 +4,7 @@ import '../../styles/style.css';
 
 import profile1 from '../../assets/Project1-OutImagery-800x550.png';
 import profile2 from '../../assets/Project2-RescuePets-800x550.png';
-import profile3 from '../../assets/PWA-JustATextEditor-800x550.png';
+import profile3 from '../../assets/MERN-refactor-800x550.png';
 import profile4 from '../../assets/TechBlog-HandleBarsSQL-800x550.png';
 
 export default function Portfolio() {
@@ -33,19 +33,19 @@ export default function Portfolio() {
               projectTitle = "Rescue Pets"
               gitHubRepo = "https://github.com/Bootcamp-Buddies/Rescue-Pets"
               gitHubAlt = "See app repository on GitHub"
-              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller" />
+              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, MVC" />
           </div> 
           <div className="row">
             <Project
               key = "3"
               img = {profile3}  
-              imgAlt = "Progressive Web Application - Simple Text Editing App"
-              project = "https://stark-depths-09292.herokuapp.com/"
-              projectAlt = "PWA Example of a simple text editor application"
-              projectTitle = "PWA - J.A.T.E."
-              gitHubRepo = "https://github.com/jscobie/TextEditor"
+              imgAlt = "MERN Stack - Book Search"
+              project = "https://hidden-earth-55114.herokuapp.com/"
+              projectAlt = "Full Stack GraphQL Book Search"
+              projectTitle = "Book Search"
+              gitHubRepo = "https://github.com/jscobie/MERN-Book-Search-Engine"
               gitHubAlt = "See app repository on Github"
-              description = "Technology used: Express, concurrently, nodemon, webpack, css loader, babel" />
+              description = "Technology used: MERN, GraphQL, Apollo, Heroku, Atlas" />
             <Project
               key = "4"
               img = {profile4}  
@@ -55,7 +55,7 @@ export default function Portfolio() {
               projectTitle = "TechBlog - Twitter's Replacement"
               gitHubRepo = "https://github.com/jscobie/TechBlogMVC"
               gitHubAlt = "See app repository on GitHub"
-              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller" />
+              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, MVC" />
           </div> 
         </div>
       </div>
