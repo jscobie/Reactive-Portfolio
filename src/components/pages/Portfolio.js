@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+import '../../styles/style.css';
 
 import profile1 from '../../assets/Project1-OutImagery-800x550.png';
 import profile2 from '../../assets/Project2-RescuePets-800x550.png';
@@ -32,7 +33,7 @@ export default function Portfolio() {
               projectTitle = "Rescue Pets"
               gitHubRepo = "https://github.com/Bootcamp-Buddies/Rescue-Pets"
               gitHubAlt = "See app repository on GitHub"
-              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller, dotenv" />
+              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller" />
           </div> 
           <div className="row">
             <Project
@@ -54,7 +55,7 @@ export default function Portfolio() {
               projectTitle = "TechBlog - Twitter's Replacement"
               gitHubRepo = "https://github.com/jscobie/TechBlogMVC"
               gitHubAlt = "See app repository on GitHub"
-              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller, dotenv" />
+              description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, model-view-controller" />
           </div> 
         </div>
       </div>

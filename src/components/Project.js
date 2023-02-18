@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/style.css';
 import gitlogo from '../assets/GitHub-Mark-Light-64px.png';
 
 export default function Project(props) {
     return (
-        <div className="col-md-6">
+        <div className="col-md-6 project-image">
             <a href={props.project} alt={props.projectAlt}><img style={{ "marginBottom":"5px", "border":"5px solid #a8dadc","borderRadius":"3px","opacity":"1","width":"375px", 'height':'150px' }} src={props.img} alt={props.imgAlt}></img></a>
              <div style={{display: 'flex', justifyContent: 'space-between'}}>
                 <p><a style={{ "fontSize":"1.3rem","fontFamily":"Helvetica" }} href={props.project} alt={props.projectAlt}><b>{props.projectTitle}</b></a></p>
