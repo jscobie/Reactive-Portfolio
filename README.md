@@ -5,11 +5,11 @@
 
 ## Description
 
-This project is a Portfolio project built using the newly learned React framework. Since all devlopers need a great portfolio to showcase their skills and for career opportunities this is an excellant project that not only is being built for the Bootcamp grading but will be continuously updated for me to use.
+This project is a Portfolio project built using the newly learned React framework. Since all devlopers need a great portfolio to showcase their skills and for career opportunities this is an excellant project that not only is being built for the Bootcamp grading but will be continuously updated for me to use. What exists is a great beginning but I will continuing education through improving this portfolio!
 
 ### Required links for review and grading submission
 [Github Repository Link](https://github.com/jscobie/Reactive-Portfolio)<br>
-[Git Pages Deployed Site]()
+[Git Pages Deployed Site](https://jscobie.github.io/Reactive-Portfolio/)
 
 ## Table of Contents
 
