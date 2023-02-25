@@ -6,6 +6,8 @@ import profile1 from '../../assets/Project1-OutImagery-800x550.png';
 import profile2 from '../../assets/Project2-RescuePets-800x550.png';
 import profile3 from '../../assets/MERN-refactor-800x550.png';
 import profile4 from '../../assets/TechBlog-HandleBarsSQL-800x550.png';
+import profile5 from '../../assets/Weather-App-800x550.png';
+import profile6 from '../../assets/Password-Generator-800x550.png';
 
 export default function Portfolio() {
   return (
@@ -56,6 +58,28 @@ export default function Portfolio() {
               gitHubRepo = "https://github.com/jscobie/TechBlogMVC"
               gitHubAlt = "See app repository on GitHub"
               description = "Technology used: Node, sequelize, handlebars, express-session, Heroku, jawsdb, mysql, MVC" />
+          </div> 
+          <div className="row">
+            <Project
+              key = "5"
+              img = {profile5}  
+              imgAlt = "Weather Dashboard"
+              project = "https://jscobie.github.io/weather-dashboard/"
+              projectAlt = "Weather Dashboard - OpenWeather"
+              projectTitle = "Weather"
+              gitHubRepo = "https://github.com/jscobie/weather-dashboard"
+              gitHubAlt = "See app repository on Github"
+              description = "Technology used: HTML, CSS, Moement.JS, APIs, JQuery" />
+            <Project
+              key = "6"
+              img = {profile6}  
+              imgAlt = "Password Generator"
+              project = "https://jscobie.github.io/secret-password-builder/"
+              projectAlt = "Generates Passwords"
+              projectTitle = "Generate Passwords"
+              gitHubRepo = "https://github.com/jscobie/secret-password-builder"
+              gitHubAlt = "See app repository on GitHub"
+              description = "Technology used: HTML, CSS, Javascript" />
           </div> 
         </div>
       </div>

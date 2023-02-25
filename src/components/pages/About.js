@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/style.css';
+import thumbnail from '../../assets/image.jpg';
 
 export default function About() {
   return (
@@ -12,11 +13,13 @@ export default function About() {
           heavy on the IT light on the manager; I push my team by being technically knowledgable. Managing people and 
           technologies is only one facet of what a successful IT Manager does in my opinion.
         </p>
-        <p style={{"marginBottom":"36%"}}>
+        <img className="resume" style={{"border":"5px solid #13293d","borderRadius":"3px","opacity":".8","width":"225px", "margin": "10px 0px"}} id="resume" src={thumbnail} alt="thumbnail of resume"></img>
+        <p style={{"marginBottom":"11%"}}>
           I am about to graduate from a Web Development (Full Stack) Bootcamp through Michigan State University. I am planning
           to utilize my new coding skills to improve my employers online presence through a normal website and we have working
           plans on multiple portal projects which require stron front/back end skills for the entire Full Stack programming scheme.
         </p>
+
       </div>
     </div>
   );
