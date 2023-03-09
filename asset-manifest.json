@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Reactive-Portfolio/static/css/main.0fd47dac.css",
-    "main.js": "/Reactive-Portfolio/static/js/main.2dd9a69c.js",
+    "main.js": "/Reactive-Portfolio/static/js/main.35f17062.js",
     "static/media/Project1-OutImagery-800x550.png": "/Reactive-Portfolio/static/media/Project1-OutImagery-800x550.00b7a938584120828df0.png",
     "static/media/Project2-RescuePets-800x550.png": "/Reactive-Portfolio/static/media/Project2-RescuePets-800x550.097b3b6c8bf145735d9e.png",
     "static/media/Resume.PNG": "/Reactive-Portfolio/static/media/Resume.277aeefdbdc979170723.PNG",
     "static/media/MERN-refactor-800x550.png": "/Reactive-Portfolio/static/media/MERN-refactor-800x550.454056c9ad1477cb6e4a.png",
+    "static/media/Project3-Squeezy-800x550.png": "/Reactive-Portfolio/static/media/Project3-Squeezy-800x550.b32dd97eab2ffa918dbe.png",
     "static/media/R.jpg": "/Reactive-Portfolio/static/media/R.3ff1eaaed187ecdc7dec.jpg",
     "static/media/TechBlog-HandleBarsSQL-800x550.png": "/Reactive-Portfolio/static/media/TechBlog-HandleBarsSQL-800x550.e531643ea7d25d8c6a4b.png",
     "static/media/image.jpg": "/Reactive-Portfolio/static/media/image.bfe5956ce6a2485d2b8c.jpg",
-    "static/media/Weather-App-800x550.png": "/Reactive-Portfolio/static/media/Weather-App-800x550.773cc71b4be00c24a9de.png",
     "static/media/Password-Generator-800x550.png": "/Reactive-Portfolio/static/media/Password-Generator-800x550.f78dc27fcbb8acde5be4.png",
     "index.html": "/Reactive-Portfolio/index.html",
     "main.0fd47dac.css.map": "/Reactive-Portfolio/static/css/main.0fd47dac.css.map",
-    "main.2dd9a69c.js.map": "/Reactive-Portfolio/static/js/main.2dd9a69c.js.map"
+    "main.35f17062.js.map": "/Reactive-Portfolio/static/js/main.35f17062.js.map"
   },
   "entrypoints": [
     "static/css/main.0fd47dac.css",
-    "static/js/main.2dd9a69c.js"
+    "static/js/main.35f17062.js"
   ]
 }
