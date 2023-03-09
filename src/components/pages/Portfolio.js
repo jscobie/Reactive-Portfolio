@@ -2,11 +2,11 @@ import React from 'react';
 import Project from '../Project';
 import '../../styles/style.css';
 
-import profile1 from '../../assets/Project1-OutImagery-800x550.png';
+import profile1 from '../../assets/Project3-Squeezy-800x550.png';
 import profile2 from '../../assets/Project2-RescuePets-800x550.png';
 import profile3 from '../../assets/MERN-refactor-800x550.png';
 import profile4 from '../../assets/TechBlog-HandleBarsSQL-800x550.png';
-import profile5 from '../../assets/Weather-App-800x550.png';
+import profile5 from '../../assets/Project1-OutImagery-800x550.png';
 import profile6 from '../../assets/Password-Generator-800x550.png';
 
 export default function Portfolio() {
@@ -19,13 +19,13 @@ export default function Portfolio() {
             <Project
               key = "1"
               img = {profile1}  
-              imgAlt = "Out of this world Imagery and Quote"
-              project = "https://quatrogroup.github.io/quattro-project/"
-              projectAlt = "CSS Front End Styling project using APIs"
-              projectTitle = "CSS and API"
-              gitHubRepo = "https://github.com/QuatroGroup/quattro-project"
-              gitHubAlt = "See game repository on GitHub"
-              description = "Technology used: HTML, CSS, API" />
+              imgAlt = "Squeezy Citrus"
+              project = "https://squeezy-citrus.herokuapp.com/"
+              projectAlt = "Full MERN Stack Webstore"
+              projectTitle = "MERN E-Commerce"
+              gitHubRepo = "https://github.com/Bootcamp-Buddies/Squeezy"
+              gitHubAlt = "See app repository on GitHub"
+              description = "Technology used: MERN, Stripe, React, MondoDB, Express, Node, Apollo, Graphql" />
             <Project
               key = "2"
               img = {profile2}  
@@ -63,13 +63,13 @@ export default function Portfolio() {
             <Project
               key = "5"
               img = {profile5}  
-              imgAlt = "Weather Dashboard"
-              project = "https://jscobie.github.io/weather-dashboard/"
-              projectAlt = "Weather Dashboard - OpenWeather"
-              projectTitle = "Weather"
-              gitHubRepo = "https://github.com/jscobie/weather-dashboard"
-              gitHubAlt = "See app repository on Github"
-              description = "Technology used: HTML, CSS, Moement.JS, APIs, JQuery" />
+              imgAlt = "Out of this world Imagery and Quote"
+              project = "https://quatrogroup.github.io/quattro-project/"
+              projectAlt = "CSS Front End Styling project using APIs"
+              projectTitle = "CSS and API"
+              gitHubRepo = "https://github.com/QuatroGroup/quattro-project"
+              gitHubAlt = "See game repository on GitHub"
+              description = "Technology used: HTML, CSS, API" />
             <Project
               key = "6"
               img = {profile6}  
